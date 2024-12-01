@@ -13,19 +13,31 @@ body {
 }
 
 .header-section,
-.hero-section {
-    background: #1F2937;
+.hero-section,
+.information-section,
+.testimonial-section,
+.action-section {
     display: flex;
     justify-content: center;
 }
 
-.information-section {
-    display: flex;
-    justify-content: center;
+.header-section,
+.hero-section {
+    background: #1F2937;
+}
+
+.testimonial-section {
+    background: #E5E7EB;
+}
+
+.header,
+.hero,
+.testimonial,
+.action {
+    width: 1024px;
 }
 
 .header {
-    width: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +62,6 @@ a {
 }
 
 .hero {
-    width: 1024px;
     display: flex;
     justify-content: space-between;
     padding: 16px 0px;
@@ -114,4 +125,16 @@ h2 {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 12px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 100px;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
 }
