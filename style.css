@@ -12,12 +12,19 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header-section,
+.hero-section {
     background: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 100px;
+    padding: 16px 0;
 }
 
 ul {
@@ -38,13 +45,13 @@ a {
 }
 
 .hero {
-    background: #1F2937;
+    width: 1024px;
     display: flex;
-    padding: 16px 100px;
+
+    justify-content: space-between;
+    padding: 16px 0px;
     font-size: 18px;
     color: #E5E7EB;
-    gap: 24px;
-    justify-content: center;
 }
 
 h1 {
@@ -54,7 +61,7 @@ h1 {
 }
 
 .card {
-    width: 400px;
+    width: 450px;
 }
 
 .card p {
@@ -72,7 +79,7 @@ h1 {
 
 .image {
     background: grey;
-    width: 400px;
+    width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
