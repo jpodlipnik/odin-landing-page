@@ -30,6 +30,10 @@ body {
     background: #E5E7EB;
 }
 
+.hero-section {
+    padding-bottom: 64px;
+}
+
 .header,
 .hero,
 .testimonial,
@@ -94,7 +98,7 @@ h2 {
 .card button {
     background-color: #3882F6;
     border:none;
-    padding: 10px 16px;
+    padding: 4px 16px;
     color: #E5E7EB;
     font-weight: bold;
     border-radius: 5px;
@@ -137,4 +141,38 @@ h2 {
 .author {
     font-weight: bold;
     text-align: right;
+}
+
+.action {
+    background: #3882F6;
+    margin: 64px 0;
+    color: #E5E7EB;
+    padding: 24px 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.text-action {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action button {
+    background-color: #3882F6;
+    border:2px solid #E5E7EB;
+    padding: 4px 16px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #1f2937;
+    color: #E5E7EB;
+    height: 72px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
